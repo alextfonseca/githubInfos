@@ -1,0 +1,53 @@
+.card {
+  margin-top: 30px;
+  background: #f6b130;
+  border: 1px solid #f6b130;
+  padding: 20px;
+  border-radius: 0.25rem;
+  font-family: sans-serif;
+}
+
+.card h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.card p {
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.card .infosUser {
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+}
+
+.card .infosUser p {
+  margin-left: 30px;
+  color: #8844ee;
+}
+
+.card .infosUser img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.card a {
+  padding: 20px 30px;
+  background: transparent;
+  border: 1px solid #8844ee;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #8844ee;
+  transition: 0.3s;
+}
+
+.card a:hover {
+  background: #8844ee;
+  color: #fff;
+}

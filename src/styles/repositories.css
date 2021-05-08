@@ -1,0 +1,42 @@
+h1 {
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  color: #f6b130;
+  padding: 10px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 30px;
+  background: #8a8a8a;
+}
+
+input {
+  border: 1px solid #f6b130;
+  padding: 15px 50px;
+  border-radius: 0.25rem;
+}
+button {
+  margin-left: 10px;
+  border-radius: 0.25rem;
+  color: #f6b130;
+  cursor: pointer;
+  border: 1px solid #f6b130;
+  background: transparent;
+  padding: 20px 30px;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #f6b130;
+  color: #fff;
+}
+
+.repositories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
