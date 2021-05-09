@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "../styles/geral.css";
 import "../styles/repositories.css";
 import RepositoryList from "./RepositoriesList";
@@ -20,7 +20,7 @@ const Repositories = () => {
       <section className="search">
         <input
           type="text"
-          placeholder="Adicionar novo todo"
+          placeholder="Nome de um usuário"
           onChange={(e) => setUSer(e.target.value)}
           value={user}
         />
